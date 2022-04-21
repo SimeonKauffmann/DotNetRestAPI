@@ -1,0 +1,322 @@
+{
+  "OnboardingBackend.dll": {
+    "/Users/simeonkauffmann/Desktop/_-code/Onboarding/_Onboarding/BE/OnboardingBackend/Program.cs": {
+      "OnboardingBackend.Program": {
+        "System.Void OnboardingBackend.Program::Main(System.String[])": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.Hosting.IHostBuilder OnboardingBackend.Program::CreateHostBuilder(System.String[])": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/simeonkauffmann/Desktop/_-code/Onboarding/_Onboarding/BE/OnboardingBackend/Startup.cs": {
+      "OnboardingBackend.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration OnboardingBackend.Startup::get_Configuration()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.Void OnboardingBackend.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "32": 0
+          },
+          "Branches": []
+        },
+        "System.Void OnboardingBackend.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
+          "Lines": {
+            "36": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "44": 0,
+            "46": 0,
+            "48": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0
+          },
+          "Branches": [
+            {
+              "Line": 39,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 9,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void OnboardingBackend.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/simeonkauffmann/Desktop/_-code/Onboarding/_Onboarding/BE/OnboardingBackend/Services/DBConnection.cs": {
+      "OnboardingBackend.Services.ITestCollection": {
+        "MongoDB.Bson.ObjectId OnboardingBackend.Services.ITestCollection::get_Id()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.String OnboardingBackend.Services.ITestCollection::get_Message()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        }
+      },
+      "OnboardingBackend.Services.IUserModel": {
+        "MongoDB.Bson.ObjectId OnboardingBackend.Services.IUserModel::get_Id()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.String OnboardingBackend.Services.IUserModel::get_Email()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.String OnboardingBackend.Services.IUserModel::get_Name()": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        }
+      },
+      "OnboardingBackend.Services.Db": {
+        "MongoDB.Driver.IMongoDatabase OnboardingBackend.Services.Db::ConnectDb()": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/simeonkauffmann/Desktop/_-code/Onboarding/_Onboarding/BE/OnboardingBackend/Services/UserService.cs": {
+      "OnboardingBackend.Services.UserService": {
+        "System.Void OnboardingBackend.Services.UserService::.ctor()": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        }
+      },
+      "OnboardingBackend.Services.UserService/<CreateAsync>d__4": {
+        "System.Void OnboardingBackend.Services.UserService/<CreateAsync>d__4::MoveNext()": {
+          "Lines": {
+            "35": 0
+          },
+          "Branches": []
+        }
+      },
+      "OnboardingBackend.Services.UserService/<GetAsync>d__2": {
+        "System.Void OnboardingBackend.Services.UserService/<GetAsync>d__2::MoveNext()": {
+          "Lines": {
+            "29": 0
+          },
+          "Branches": []
+        }
+      },
+      "OnboardingBackend.Services.UserService/<GetAsync>d__3": {
+        "System.Void OnboardingBackend.Services.UserService/<GetAsync>d__3::MoveNext()": {
+          "Lines": {
+            "32": 0
+          },
+          "Branches": []
+        }
+      },
+      "OnboardingBackend.Services.UserService/<RemoveAsync>d__6": {
+        "System.Void OnboardingBackend.Services.UserService/<RemoveAsync>d__6::MoveNext()": {
+          "Lines": {
+            "41": 0
+          },
+          "Branches": []
+        }
+      },
+      "OnboardingBackend.Services.UserService/<UpdateAsync>d__5": {
+        "System.Void OnboardingBackend.Services.UserService/<UpdateAsync>d__5::MoveNext()": {
+          "Lines": {
+            "38": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/simeonkauffmann/Desktop/_-code/Onboarding/_Onboarding/BE/OnboardingBackend/Models/TestModel.cs": {
+      "OnboardingBackend.Models.TestModel": {
+        "System.String OnboardingBackend.Models.TestModel::get_Message()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/simeonkauffmann/Desktop/_-code/Onboarding/_Onboarding/BE/OnboardingBackend/Models/UserModel.cs": {
+      "OnboardingBackend.Models.User": {
+        "MongoDB.Bson.ObjectId OnboardingBackend.Models.User::get_Id()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.String OnboardingBackend.Models.User::get_Email()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.String OnboardingBackend.Models.User::get_Name()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/simeonkauffmann/Desktop/_-code/Onboarding/_Onboarding/BE/OnboardingBackend/Controllers/TestController.cs": {
+      "OnboardingBackend.Controllers.TestController": {
+        "System.Void OnboardingBackend.Controllers.TestController::.ctor(Microsoft.Extensions.Logging.ILogger`1<OnboardingBackend.Controllers.TestController>)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        }
+      },
+      "OnboardingBackend.Controllers.TestController/<>c__DisplayClass2_0": {
+        "OnboardingBackend.Models.TestModel OnboardingBackend.Controllers.TestController/<>c__DisplayClass2_0::<Get>b__0(System.Int32)": {
+          "Lines": {
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0
+          },
+          "Branches": []
+        }
+      },
+      "OnboardingBackend.Controllers.TestController/<Get>d__2": {
+        "System.Void OnboardingBackend.Controllers.TestController/<Get>d__2::MoveNext()": {
+          "Lines": {
+            "30": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "37": 0,
+            "41": 0,
+            "46": 0,
+            "47": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/simeonkauffmann/Desktop/_-code/Onboarding/_Onboarding/BE/OnboardingBackend/Controllers/UserGetController.cs": {
+      "OnboardingBackend.Controllers.UserGetController": {
+        "System.Void OnboardingBackend.Controllers.UserGetController::.ctor(Microsoft.Extensions.Logging.ILogger`1<OnboardingBackend.Controllers.UserGetController>)": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        }
+      },
+      "OnboardingBackend.Controllers.UserGetController/<Get>d__2": {
+        "System.Void OnboardingBackend.Controllers.UserGetController/<Get>d__2::MoveNext()": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "35": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/simeonkauffmann/Desktop/_-code/Onboarding/_Onboarding/BE/OnboardingBackend/Controllers/UserPostController.cs": {
+      "OnboardingBackend.Controllers.UserPostController": {
+        "System.Void OnboardingBackend.Controllers.UserPostController::.ctor(OnboardingBackend.Services.UserService)": {
+          "Lines": {
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      },
+      "OnboardingBackend.Controllers.UserPostController/<Get>d__2": {
+        "System.Void OnboardingBackend.Controllers.UserPostController/<Get>d__2::MoveNext()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        }
+      },
+      "OnboardingBackend.Controllers.UserPostController/<Post>d__3": {
+        "System.Void OnboardingBackend.Controllers.UserPostController/<Post>d__3::MoveNext()": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "36": 0,
+            "37": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
